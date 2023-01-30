@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+
+# Environments
+.venv/
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+
+# IDE
+.idea/
+
+
+# Large data
+data/
+
+
+# Docker volumes
+data_pgadmin/
+ny_taxi_db/

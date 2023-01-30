@@ -1,0 +1,28 @@
+Question 1
+----------
+--iidfile string
+
+
+Question 2. Terraform
+---------------------
+3
+
+
+Question 3. Count records
+-------------------------
+20530
+
+
+Question 4. Largest trip for each day
+-------------------------------------
+2019-01-15 19:27:58  117.99
+
+
+Question 5. The number of passengers
+------------------------------------
+2: 1282 ; 3: 254
+
+
+Question 6. Largest tip
+-----------------------
+Long Island City/Queens Plaza
