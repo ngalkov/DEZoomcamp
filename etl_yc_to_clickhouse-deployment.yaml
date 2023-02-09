@@ -1,0 +1,59 @@
+###
+### A complete description of a Prefect Deployment for flow 'etl-yc-to-clickhouse'
+###
+name: Question 3
+description: Main ETL flow to load data into Big Query
+version: 57e2fe089776fa63ae0d6ec749c9db83
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+work_pool_name: null
+tags: []
+parameters: {"color": "yellow", "months" :[2, 3], "year": 2019}
+schedule: null
+is_schedule_active: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: etl-yc-to-clickhouse
+manifest_path: null
+storage: null
+path: C:\Users\Nikolay\Dev\edu\DEZoomcamp
+entrypoint: Homeworks\Week_2\param_etl_yc_to_clickhouse.py:etl_yc_to_clickhouse
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties:
+    months:
+      title: months
+      default:
+      - 1
+      - 2
+      position: 0
+      type: array
+      items:
+        type: integer
+    year:
+      title: year
+      default: 2021
+      position: 1
+      type: integer
+    color:
+      title: color
+      default: yellow
+      position: 2
+      type: string
+  required: null
+  definitions: null
+timestamp: '2023-02-08T12:47:10.274347+00:00'

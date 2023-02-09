@@ -1,0 +1,40 @@
+###
+### A complete description of a Prefect Deployment for flow 'etl-web-to-yc'
+###
+name: Question 2
+description: The main ETL function
+version: 97e8878ee67542c8abb694aaa7800c5c
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+work_pool_name: null
+tags: []
+parameters: {}
+schedule: null
+is_schedule_active: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: etl-web-to-yc
+manifest_path: null
+storage: null
+path: C:\Users\Nikolay\Dev\edu\DEZoomcamp
+entrypoint: Homeworks\Week_2\etl_web_to_yc.py:etl_web_to_yc
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2023-02-07T19:38:43.081438+00:00'

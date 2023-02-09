@@ -8,6 +8,10 @@ pandas = "*"
 sqlalchemy = "*"
 psycopg2 = "*"
 notebook = "*"
+prefect = "*"
+prefect-aws = "*"
+pyarrow = "*"
+clickhouse-connect = "*"
 
 [dev-packages]
 

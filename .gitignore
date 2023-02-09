@@ -19,6 +19,15 @@ __pycache__/
 data/
 
 
+# Experiments
+Playground/
+
+
 # Docker volumes
 data_pgadmin/
 ny_taxi_db/
+
+
+# ClickHOuse certificate
+CA.pem
+
