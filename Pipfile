@@ -12,6 +12,7 @@ prefect = "*"
 prefect-aws = "*"
 pyarrow = "*"
 clickhouse-connect = "*"
+python-dotenv = "*"
 
 [dev-packages]
 

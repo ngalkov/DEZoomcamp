@@ -31,3 +31,5 @@ ny_taxi_db/
 # ClickHOuse certificate
 CA.pem
 
+
+.env
